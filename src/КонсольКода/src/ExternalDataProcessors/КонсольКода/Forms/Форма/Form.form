@@ -386,7 +386,6 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <autoFillCheck>true</autoFillCheck>
@@ -571,24 +570,34 @@
     <name>ВыполнитьКодНаКлиенте</name>
     <title>
       <key>ru</key>
-      <value>&amp;НаКлиенте</value>
+      <value>На клиенте</value>
     </title>
     <id>1</id>
     <use>
       <common>true</common>
     </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ВыполнитьКодНаКлиенте</name>
+      </handler>
+    </action>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ВыполнитьКодНаСервере</name>
     <title>
       <key>ru</key>
-      <value>&amp;НаСервере</value>
+      <value>На сервере</value>
     </title>
     <id>2</id>
     <use>
       <common>true</common>
     </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ВыполнитьКодНаСервере</name>
+      </handler>
+    </action>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <commandInterface>
