@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="513a1e8c-0c4f-4b5a-b41e-1c65d7299e0c">
+  <producedTypes>
+    <objectType typeId="81e5a8aa-1171-46c2-8a1e-ca4d120ec71a" valueTypeId="25394278-8bbf-48e7-b837-9c299e327610"/>
+  </producedTypes>
+  <name>КонсольКода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Консоль кода</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="4cea7d8b-25a1-4eab-8944-b7e099281aa9"/>
+  <defaultForm>ExternalDataProcessor.КонсольКода.Form.Форма</defaultForm>
+  <forms uuid="19adbb98-568a-4d62-8fc9-328c70b15377">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>
